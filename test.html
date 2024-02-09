@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head> <title> html forms</title></head>
+<body> 
+<form> 
+    <fieldset>
+        <legend>
+            course selection form
+        </legend>
+        <p> * indicated fields are compulsory</p>
+        <label for="name"> name*</label> <br>
+        <input type="text" id="name" name="name"required> <br>
+        <label for="roll number"> roll number*</label> <br>
+        <input type="text" id="roll number" name="roll number"required> <br>
+        <label for="password"> Password*</label> <br>
+        <input type="text" id="password" name="password"required> <br>
+        <br>
+        <input type="submit" id="next" onclick="alert('Proceeding....')">
+        <!-- <button type="button" onclick="alert('moved')" > Proceed </button> -->
+
+    </fieldset>
+    <fieldset>
+    <p> select your branch* </p>
+    <input type="radio" id="it" name="branch">
+    <label for="it"> IT</label> 
+    <br>
+    <input type="radio" id="itbi" name="branch">
+    <label for="itbi"> IT-BI</label> 
+    <br>
+    <input type="radio" id="ece" name="branch">
+    <label for="ece"> ECE</label> 
+    <br> <br>
+
+    <p> select langugaes known </p>
+    <input type="checkbox" id="c++" name="c++" >
+    <label for="c++"> C++</label> 
+    <br>
+    <input type="checkbox" id="c" name="c">
+    <label for="c"> C</label> 
+    <br>
+    <input type="checkbox" id="java" name="java">
+    <label for="java"> Java</label> 
+    <br> <input type="submit">
+    <!-- <button type="button" onclick="alert('Form Submitted')" > Submit </button> -->
+    </fieldset>
+</form>
+</body>
+</html>
